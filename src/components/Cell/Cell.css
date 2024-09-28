@@ -1,0 +1,44 @@
+label{
+    cursor: pointer;
+    font-size: 14px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    padding: 5px;
+    color: dimgray;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.image-container {
+    position: relative;
+}
+  
+.image-container:hover .design-image {
+    transform: scale(1.05);
+}
+
+.edit-button {
+    display: none;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: rgba(255, 255, 255, 0.8); 
+    border: 1px solid #007bff; 
+    color: #007bff; 
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 5px;
+}
+  
+.image-container:hover .edit-button {
+    display: block;
+}
+
+.fa-pen-to-square{
+    height: 2em;
+}
